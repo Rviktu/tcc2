@@ -5,32 +5,45 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9290C3;
+    background-color: #3A4750;
 }
-.eletro-automação{
-    height:20px;
-    width:auto;
-    font-size: 20px;
 
+.txt{
+    flex-direction: column;
+}
 
+.eletro{
+    color: #ccc;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20%;
+    
 
+}
+.automação{
+    color: #ccc;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container {
     width: 300px;
-    margin-left:40%;
+    margin-left:30%;
 }
 
 .login-form {
-    background-color: #4F758C;
-box-shadow: 0px 10px 50px black;
+    background-color: #303841;
+box-shadow: 0px 10px 50px rgb(0, 0, 0);
     border-radius: 10px;
     padding: 50px;
     
 }
 
-.login-form h2 {
+.login-form h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    color: #ccc;
+    
+
 }
 
 .form-group {
@@ -52,13 +65,19 @@ box-shadow: 0px 10px 50px black;
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #EA9215;
+    color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: all ease 0.4s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #cccccc;
+    
+}
+.container h1{
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
