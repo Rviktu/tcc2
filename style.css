@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -7,6 +7,14 @@ body {
     align-items: center;
     background-color: #3A4750;
 }
+
+.nav-bar{
+    background-color: white;
+    height: 5pc;
+    width: auto;
+    margin-top: -45pc;
+}
+
 
 .txt{
     flex-direction: column;
