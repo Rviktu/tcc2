@@ -9,12 +9,19 @@ body{
 }
 
 .nav-bar{
-    background-color: white;
-    height: 5pc;
-    width: auto;
-    margin-top: -45pc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    z-index: 1000;
+    display: inline;
+    list-style-type: none;
+    padding: 10px 0;
+    display: flex;
 }
-
 
 .txt{
     flex-direction: column;
