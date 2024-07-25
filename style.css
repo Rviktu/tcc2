@@ -25,9 +25,9 @@ body{
     
 }
 
-.navbar-brand img {
-    max-height: 40px
-    
+.nav-bar img{
+    margin: 20px;
+    margin-right: 100px;
 
 }
 
