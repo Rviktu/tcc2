@@ -1,0 +1,134 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3A4750;
+}
+
+
+.nav-bar{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #303841;
+  width: 100%;
+  position:fixed;
+  top: 0;
+  z-index: 1000;
+  display: inline;
+  list-style-type: none;
+  padding: 10px 0;
+  display: flex;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+  
+}
+
+.nav-bar img{
+  margin: 20px;
+  margin-right: 100px;
+
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1; 
+  justify-content: center; 
+}
+
+.nav-bar li {
+  margin: 0 15px; 
+  font-size: 18px; 
+}
+
+.nav-bar li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px; 
+  transition: color 0.3s ease;
+}
+
+.nav-bar li a:hover {
+  color: #EA9215;
+}
+
+
+.lado {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+
+.about-us {
+  margin: 150px 0 20px 10px;
+  color: white;
+}
+
+.about-us h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-us p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+.imagem {
+  margin: 20px;
+  margin-right: 100px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.company-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.description {
+  max-width: 800px;
+}
+
+.description h2 {
+  margin-top: 0;
+}
+
+
+.contact {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.contact-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #EA9215;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.contact-button:hover {
+  background-color: #cccccc;
+}
